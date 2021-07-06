@@ -1,0 +1,14 @@
+buildType:
+  default: "noTests"
+  description: Testing
+  choices:
+    "noTests":
+      short: noTests
+      long: Don't include gtests in build
+      settings:
+        EnableTests: off
+    "withTests":
+      short: withTests
+      long: Include gtests in build
+      settings:
+        EnableTests: on

@@ -20,7 +20,7 @@ namespace Inputs
             tempEv.x = p.x;
             tempEv.y = p.y;
             tempEv.leftClick = true;  
-            return std::optional<Inputs::MouseClickEv>{tempEv};  
+            return std::optional<Inputs::MouseClickEv>{tempEv};
         }
         else
         {

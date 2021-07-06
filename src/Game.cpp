@@ -3,15 +3,10 @@
 
 void Game::HandleInput()
 {
-    // if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-    // {
-    //     sf::Vector2i p = sf::Mouse::getPosition();
-    //     std::cout << p.x << " , " << p.y << std::endl;
-    // }
     std::optional<Inputs::MouseClickEv> mouseClick = Inputs::getMouseClick();
     if(mouseClick.has_value())
         std::cout << "Mouse click ev";
-    
+   
 }
 
 void Game::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
