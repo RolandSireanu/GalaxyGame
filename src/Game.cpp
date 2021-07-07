@@ -5,8 +5,13 @@ void Game::HandleInput()
 {
     std::optional<Inputs::MouseClickEv> mouseClick = Inputs::getMouseClick();
     if(mouseClick.has_value())
-        std::cout << "Mouse click ev";
-   
+    {
+        if(mouseClick.value().leftClick == true)
+            std::cout << " Left click " << std::endl;
+        else if(mouseClick.value().leftClick == false)
+            std::cout << " Right click " << std::endl;
+        else{}
+    }
 }
 
 void Game::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
