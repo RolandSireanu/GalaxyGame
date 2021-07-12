@@ -56,6 +56,8 @@ void Window::Update()
             if (event.type == sf::Event::Closed)
                m_isDone = true;
         }
+
+        
 }
 
 void Window::Draw(sf::Drawable& l_drawable)

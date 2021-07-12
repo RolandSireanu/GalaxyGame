@@ -1,0 +1,28 @@
+buildType:
+  default: debug
+  description: Build option
+  choices:
+    debug:
+      short: Debug
+      long: Debug build type
+      buildType: Debug
+    release:
+      short: Release
+      long: Release build type
+      buildType: Release
+
+useTestsOrNot:
+  default: "noTests"
+  description: Testing
+  choices:
+    "noTests":
+      short: noTests
+      long: Don't include gtests in build
+      settings:
+        EnableTests: off
+        CMAKE_BUILD_TYPE: "Release"
+    "withTests":
+      short: withTests
+      long: Include gtests in build
+      settings:
+        EnableTests: on

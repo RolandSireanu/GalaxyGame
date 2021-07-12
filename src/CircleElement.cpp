@@ -49,23 +49,23 @@ void CircleElement::setPos(float arg_x, float arg_y)
     m_circle.setPosition(sf::Vector2f(arg_x, arg_y));
 }
 
-float CircleElement::getRad() const
+float CircleElement::getRad() 
 {
     return m_circle.getRadius();
 }
 
-sf::Vector2f CircleElement::getPos() const
+sf::Vector2f CircleElement::getPos() 
 {
     return m_circle.getPosition();
 }
 
-void CircleElement::draw(sf::RenderTarget& target, sf::RenderStates states) const
+void CircleElement::draw(sf::RenderTarget& target, sf::RenderStates states) 
 {
     states.transform *= getTransform();
     target.draw(m_circle);
 }
 
-bool CircleElement::overflows(const CircleElement& arg_circle) const
+bool CircleElement::overflows(CircleElement& arg_circle)
 {
     float startX = m_circle.getPosition().x;
     float endX = startX + (m_circle.getRadius() * 2);
