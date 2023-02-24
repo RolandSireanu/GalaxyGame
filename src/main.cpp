@@ -9,7 +9,7 @@
 #endif
 using namespace std;
 
-void PID(double a)
+void I2C(double a)
 {
     
 }
