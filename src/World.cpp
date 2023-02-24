@@ -6,6 +6,12 @@
 #include <iostream>
 #include <algorithm>
 
+class Point
+{
+    int x;
+    int y;
+};
+
 void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
 {
     while(m_circles.size() < max_nr_of_circles)
