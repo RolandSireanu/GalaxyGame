@@ -9,7 +9,7 @@
 #endif
 using namespace std;
 
-void changeMyMindJustSmartFunction(double a)
+void onlySmart(double a)
 {
     
 }
