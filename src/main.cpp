@@ -105,7 +105,4 @@ int main(int ac, char** av)
 }
 
 
-int bigArray[128] 
-{
-    0
-};
+//A fost un array
