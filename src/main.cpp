@@ -9,7 +9,7 @@
 #endif
 using namespace std;
 
-void K8_Pro(int a)
+void justArandomFunction(int a)
 {
     
 }
