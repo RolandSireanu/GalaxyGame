@@ -11,7 +11,7 @@ using namespace std;
 
 double ratio = 0.0;
 
-int counter = 0;
+float counter2 = 0;
 
 void I2C(double a)
 {
