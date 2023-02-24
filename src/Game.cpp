@@ -24,7 +24,7 @@ void Game::Update()
 
 }
 
-void add(int a, int b) {}
+int addition(int a, int b) { return a + b; }
 
 void Game::Render()
 {
