@@ -24,6 +24,8 @@ void Game::Update()
 
 }
 
+void add(int a, int b) {}
+
 void Game::Render()
 {
     m_window.BeginDraw();
