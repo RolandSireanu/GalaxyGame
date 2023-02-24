@@ -19,7 +19,7 @@ void I2C(double a)
 }
 
 
-int main_4(int ac, char** av)
+int _main_5(int ac, char** av)
 {
     #ifdef EnableTests
         testing::InitGoogleTest(&ac, av);
