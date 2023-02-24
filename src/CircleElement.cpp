@@ -11,9 +11,12 @@ CircleElement::CircleElement()
 
 CircleElement::CircleElement(sf::Vector2f arg_pos, float arg_radius, float arg_speed)
 {
+    //How do you do
     m_circle.setRadius(arg_radius);    
-    m_circle.setFillColor(m_color);
+    m_circle.setRadius(arg_radius);
+
     m_circle.setPosition(arg_pos);
+    temp.x += distance;
     m_defaultSpeedY = arg_speed;
 }
 
