@@ -6,6 +6,11 @@
 #include <iostream>
 #include <algorithm>
 
+void updateCycle()
+{
+
+}
+
 void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
 {
     while(m_circles.size() < max_nr_of_circles)
