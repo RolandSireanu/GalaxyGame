@@ -30,11 +30,17 @@ void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
                 if(circle.overflows(temp) == true)
                 {
                     circleOk = true;
+                    //a
+                    //b
+                    //c
+                    //d
                     std::cout << "Overflow ! \n";
-                    auto temp = CircleElement();
                     float radius_proivate = (float)RandomNumbers::generate(10,30);
+                    auto temp = CircleElement();
                     break;
                 }
+                //e
+                //f
             }
             if(circleOk == true)
             {
