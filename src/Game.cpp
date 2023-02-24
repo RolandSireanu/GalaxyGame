@@ -1,6 +1,5 @@
 #include <Game.hpp>
 #include "GenerateRandomNumbers.hpp"
-
 void Game::HandleInput()
 {
     // if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
@@ -14,12 +13,12 @@ void Game::HandleInput()
     
 }
 
-void Game::Update()
-{
-    m_window.Update();
-    world.Update();
+// void Game::Update()
+// {
+//     m_window.Update();
+//     world.Update();
 
-}
+// }
 
 void Game::Render()
 {
