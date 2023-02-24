@@ -31,13 +31,18 @@ void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
                 {
                     circleOk = true;
                     std::cout << "Overflow ! \n";
-                    auto temp = CircleElement();
+                    //z
+                    //x
+                    //y
+
                     float radius_proivate = (float)RandomNumbers::generate(10,30);
-                    break;
+                    
                 }
             }
+
             if(circleOk == true)
             {
+                auto temp = CircleElement();
                 m_circles.emplace_back(position, radius, speed);
                 std::cout << "Circle added  position.x = " << position.x << " position.y = " << position.y << " radius = "<< radius << std::endl;
                 exit = true;
