@@ -26,13 +26,13 @@ void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
             for(const auto& circle : m_circles)
             {
                 // std::cout << "Check for overflow currentCicle.x = " << circle.getPos().x << " tempCircle.x = " << position.x << std::endl;
-                auto temp = CircleElement();
+                
                 if(circle.overflows(temp) == true)
                 {
-                    std::cout << "Overflow ! \n";
-                    circleOk = true;
+                    circleOk = exit;
                     break;
                 }
+                auto temp = CircleElement();
             }
             if(circleOk == true)
             {
