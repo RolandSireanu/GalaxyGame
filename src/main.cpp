@@ -9,7 +9,7 @@
 #endif
 using namespace std;
 
-void smartAndLongFunction(double a)
+void changeMyMindJustSmartFunction(double a)
 {
     
 }
