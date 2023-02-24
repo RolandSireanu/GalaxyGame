@@ -9,6 +9,8 @@
 #endif
 using namespace std;
 
+int counter = 0;
+
 void I2C(double a)
 {
     
