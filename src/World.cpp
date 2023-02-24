@@ -30,12 +30,8 @@ void World::UpdateNumberOfCircles(unsigned int max_nr_of_circles)
                 if(circle.overflows(temp) == true)
                 {
                     std::cout << "Overflow ! \n";
-                    circleOk = false;
+                    circleOk = true;
                     break;
-                }
-                else
-                {
-                    std::cout << "Not Overflow ! \n";
                 }
             }
             if(circleOk == true)
