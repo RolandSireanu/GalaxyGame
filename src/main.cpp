@@ -105,4 +105,7 @@ int main(int ac, char** av)
 }
 
 
-int array[128] {0};
+int bigArray[128] 
+{
+    0
+};
