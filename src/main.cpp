@@ -9,6 +9,12 @@
 #endif
 using namespace std;
 
+void smartAndLongFunction(double a)
+{
+    
+}
+
+
 int main(int ac, char** av)
 {
     #ifdef EnableTests
