@@ -13,7 +13,7 @@ double ratio = 0.0;
 
 float counter = 0.0f;    //counter
 
-void I2C(double a)
+void FirstMainName(double a)
 {
     
 }
