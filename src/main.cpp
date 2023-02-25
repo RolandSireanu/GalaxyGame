@@ -13,7 +13,7 @@ double ratio = 0.0;
 
 float counter = 0.0f;    //counter
 
-void ThirdMainName(double a)
+void ThirdBranchName(double a)
 {
     
 }
