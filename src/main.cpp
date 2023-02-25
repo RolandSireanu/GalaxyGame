@@ -13,9 +13,9 @@ double ratio = 0.0;
 
 float counter = 0.0f;    //counter
 
-void 6thBranchName(double a)
+void 7thBranchName(double a)
 {
-    
+    void 7thvariable;
 }
 
 
